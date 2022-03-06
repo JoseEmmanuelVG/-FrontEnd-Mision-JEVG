@@ -1,8 +1,7 @@
 # -FrontEnd-Mision-JEVG
 
 ### Toma de requerimentos
-https://github.com/JoseEmmanuelVG/-FrontEnd-Mision-JEVG/wiki/Toma-de-requerimientos.
-
+https://github.com/JoseEmmanuelVG/-FrontEnd-Mision-JEVG/wiki/Toma-de-requerimientos
 ### Buyer persona
 https://github.com/JoseEmmanuelVG/-FrontEnd-Mision-JEVG/wiki/Buyer-persona
 
