@@ -42,7 +42,166 @@
 | ------------ |
 | Craer una pagina web responsive, donde se llevara a cabo el proceso de pago para el despacho de abogados. Siguiendo una serie de etapas para la autorización y validación del mismo.  |
 
+#### FIRMAS DE ACEPTACIÓN# FASES REQUERIMIENTO DE SOFTWARE
+
+1.	DESCRIPCION GENERAL DEL REQUERIMIENTO
+2.	FASE DE FORMALIZACIÓN
+3.	ANALISIS DE REQUISITOS Y REQUERIMIENTOS
+4.	FASE DE PLANEACIÓN Y GERENCIA DEL PROYECTO
+5.	LEVANTAMIENTO DEL REQUERIMIENTO DETALLADO
+6.	DISEÑO DE LA ARQUITECTURA DE SOLUCION
+
+
+###  1. DESCRIPCION GENERAL DEL REQUERIMIENTO
+
+
+|  **PROYECTO** | Abogabot   |
+| ------------ | ------------ |
+|**Nombre Requerimiento:**   |  Automatizar demandas de sus clientes |
+| **Fecha Solicitud:**  | 17/02/22   |
+| **Responsable(s) Solicitud:**   | J. E. V. G.  |
+|**Dependencia(s) Solicitante:**   | LaunchX-InnovaccionVirtual -FrontEnd-Mision  |
+|**Responsable Funcional designado por el equipo de desarrollo de software:** | TRIPULANTE : launchx03224||
+
+
+###    2. FASE DE FORMALIZACIÓN
+| **Descripción de la Solicitud**|
+| ------------ |
+| **Usuario Solicitante** |
+| Despacho de abogados que quiere automatizar las demandas de sus clientes, a traves de una página web llenando un formulario.                              
+- Al momento de llenar el formulario se manda al proceso de pago para finalizar la transacción.
+- Para dar seguimiento a su demanda, el cliente crea una cuenta en la plataforma y verá el seguimiento de cada una de las actualizaciones del proceso legal.
+-  El administrador del sitio recbe la notificación de una nueva demanda y con los datos llenados del formulario se crea automaticamente el documento legal en formato word para empezar el proceso.
+-  El administrador recibe el pago y debe de ser capaz de verlo en un dashboard para ver la cantidad de ingresos recibidos.
+- El administrador actualiza el proceso de la demanda y agrega comentarios en cada paso del proceso.
+- Al usuario le llegan correos de notificación para saber el avance de su proceso.
+- La página debe de ser responsive para poderla ver desde el celular.
+- La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.
+
+| **Líder Funcional **|
+| ------------ |
+| Craer una pagina web responsive, donde se llevara a cabo el proceso de pago para el despacho de abogados. Siguiendo una serie de etapas para la autorización y validación del mismo.  |
+
 #### FIRMAS DE ACEPTACIÓN:
+
+- Nombre Responsable Solicitud (Dependencia Solicitante)&rarr;
+
+
+- Nombre Líder OTI  (Oficina Tecnologías de la Información)&rarr;
+
+### 3.	ANALISIS DE REQUISITOS Y REQUERIMIENTOS 
+
+**Fecha de Inicio:**    17/02/22                
+**Fecha Final:**         S/F
+
+
+
+#### Modelamiento de Negocio
+
+![](https://github.com/JoseEmmanuelVG/-FrontEnd-Mision-JEVG/blob/main/IMAGENES/Modelamiento%20de%20Negocio%20-%20JEVG.png)
+
+#### Términos de Referencia
+
+| Alcance de la solución | Automatizar las demandas de los clientes, a traves de una página web llenando un formulario.|
+| ------------ | ------------ |
+| Requerimientos Funcionales y criterios de aceptación | Para dar seguimiento a su demanda, el cliente crea una cuenta en la plataforma y verá el seguimiento de cada una de las actualizaciones del proceso legal.  Al usuario le llegan correos de notificación para saber el avance de su proceso.|
+| Requerimientos no Funcionales y de calidad |** SSL: Secure Sockets Layer**|
+| Interesados en la solución | ** e y **: Eficientar y automatizar el proceso de demandas de sus clientes |
+| Precondiciones  |La página debe de ser responsive para poderla ver desde el celular. La preferncia de colores del cliente es azul marino y blanco, pero acepta propuestas.|
+| Requisitos Técnicos  | **Desarrollo**: Responsive     ;     **Base de datos**: MySQL     ;     **Lenguaje**: C#, Java, JavaScript, PHP.    |
+| Viabilidad Técnica  | **Es viable la automatización** |
+
+#### FIRMAS DE ACEPTACIÓN:
+| Nombre  | Dependencia  |  Teléfono |  Firma |
+| ------------ | ------------ | ------------ | ------------ |
+| Interesado  | Abogabot  | 55....  | Abo |
+| Responsable  | launchx03224 | 555...   | JEVG  |
+
+
+
+### 4.	FASE DE PLANEACIÓN Y GERENCIA DEL PROYECTO
+
+#### Plan estratégico de fases del proyecto
+| Responsable| launchx03224 |Fecha| 17/02/22|
+| ------------ | ------------ | ------------ | ------------ |
+
+
+| N°  | Nombre etapa  |  Actividad |  Rol Responsable | Fecha I/F| Comentarios|
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| 1  | Planeación  | Diseño básico | Administrativo | 17/02/22 - S/F  | S/C  |
+|  2 |  Backend  | lógica de la página  | Programador | 17/02/22 - S/F   |  S/C |
+|  3 |  Frontend | Implementación de la página  | Creativo  |  17/02/22 - S/F |  S/C |
+...
+#### Diagrama de Planeación
+![](https://github.com/JoseEmmanuelVG/-FrontEnd-Mision-JEVG/blob/main/IMAGENES/Diagrama%20de%20planeaci%C3%B3n%20-%20JEVG.png)
+#### FIRMAS DE ACEPTACIÓN:
+| Nombre  | Dependencia  |  Teléfono |  Firma |
+| ------------ | ------------ | ------------ | ------------ |
+| Interesado  | Abogabot  | 55....  | Abo |
+| Responsable  | launchx03224 | 555...   | JEVG  |
+
+### 5.	LEVANTAMIENTO DEL REQUERIMIENTO DETALLADO
+
+#### HISTORIAS DE USUARIO
+|  N° | Aboga123Bot |
+| ------------ | ------------ |
+| Titulo  |  Demanda |
+| Fecha  | 17/02/22 |
+|  Estimación  | fn=fn-1+fn-2     ...  |
+
+#### Característica/Funcionalidad
+1. El administrador del sitio recbe la notificación de una nueva demanda y con los datos llenados del formulario se crea automaticamente el documento legal en formato word para empezar el proceso.
+2. El administrador recibe el pago y debe de ser capaz de verlo en un dashboard para ver la cantidad de ingresos recibidos.
+3. El administrador actualiza el proceso de la demanda y agrega comentarios en cada paso del proceso.
+
+#### Razón/Resultado
+- El cliente crea una cuenta en la plataforma y verá el seguimiento de cada una de las actualizaciones del proceso legal.
+- Al usuario le llegan correos de notificación para saber el avance de su proceso.
+
+#### Criterios de Aceptación
+|  N° | Titulo  | Contexto | Evento | 
+| ------------ | ------------ | ------------ | ------------ |
+| 1   | El cliente llena el formulario | Si la solicitud es incorrecta se muestra un mensaje de error  |  Se manda al proceso de pago para finalizar la transaccion  |
+| 2 | El cliente crea una cuenta | Registra los datos, si no coinciden con el fromulario, se muestra un mensaje de error y debe de verficar lo que proporcionó  | Verá el seguimiento de cada una de las actualizaciones del proceso legal.  |
+| 3 | ...  | ...  |  ... |
+
+#### FIRMAS DE ACEPTACIÓN:
+| Nombre  | Dependencia  |  Teléfono |  Firma |
+| ------------ | ------------ | ------------ | ------------ |
+| Interesado  | Abogabot  | 55....  | Abo |
+| Responsable  | launchx03224 | 555...   | JEVG  |
+
+
+### 6.	DISEÑO DE LA ARQUITECTURA DE SOLUCION 
+
+#### Vista Lógica
+![](https://github.com/JoseEmmanuelVG/-FrontEnd-Mision-JEVG/blob/main/IMAGENES/Vista%20L%C3%B3gica%20-%20JEVG.png)
+
+#### Vista de Implementación
+
+
+#### Vista de Proceso
+
+
+#### Vista de Física
+
+
+#### Prototipos de interfaces de usuario
+![](https://github.com/JoseEmmanuelVG/-FrontEnd-Mision-JEVG/blob/main/IMAGENES/Prototipo%20de%20interfaces%20de%20usuario%20-%20JEVG.png)
+#### FIRMAS DE ACEPTACIÓN:
+| Nombre  | Dependencia  |  Teléfono |  Firma |
+| ------------ | ------------ | ------------ | ------------ |
+| Interesado  | Abogabot  | 55....  | Abo |
+| Responsable  | launchx03224 | 555...   | JEVG  |
+
+
+
+
+
+
+
+
+
 
 - Nombre Responsable Solicitud (Dependencia Solicitante)&rarr;
 
